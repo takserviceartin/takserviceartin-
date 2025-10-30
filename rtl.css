@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Estedad';
+  src: url('assets/fonts/estedad/Estedad-Regular.woff2') format('woff2'),
+  url('assets/fonts/estedad/Estedad-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+  body,h1,h2,h3,h4,h5,h6,div,p,input,textarea,th,tr,button,a,div{
+      font-family: 'Estedad', sans-serif;
+      font-weight: 400; 
+  }
