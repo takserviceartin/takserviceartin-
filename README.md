@@ -1,26 +1,4 @@
-doctype html
 
-<!--
-**takserviceartin/takserviceartin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-عالی! 😎
-من برات قالب سایت HTML/CSS کامل و آماده برای GitHub Pages با آدرس، شماره تماس و خدماتت آماده کردم. فقط کافیه فایل را دانلود و آپلود کنی.
-
-
----
-
-قالب آماده سایت (فارسی، واکنش‌گرا)
 
 <!doctype html>
 <html lang="fa" dir="rtl">
