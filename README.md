@@ -1,4 +1,4 @@
-فایلinbox.html
+<فایلinbox.html>
 
 <!DOCTYPE html>
 <html lang="fa">
