@@ -1,1 +1,1 @@
-inbo.html
+inbox.html
