@@ -2,6 +2,7 @@
 
 📄 فایل: inbox.html
 index.html
+
 <!doctype html>
 <html lang="fa" dir="rtl">
 <head>
@@ -129,38 +130,4 @@ index.html
   <header>
     <div class="container brand">
       <h1>Tak Service Artin</h1>
-      <nav>
-        <a href="#home">خانه</a>
-        <a href="#services">خدمات</a>
-        <a href="#contact">تماس</a>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero" id="home">
-    <h2>نصب و تعمیر انواع لوازم خانگی</h2>
-    <p>تخصصی‌ترین مرکز نصب و تعمیر انواع اجاق گاز، هود، فر توکار، مایکروویو، جاروبرقی و آبگرمکن</p>
-    <a class="cta" href="#contact">تماس بگیرید</a>
-    <p style="margin-top:10px;">📞 ۰۹۱۹۴۶۷۵۹۲۱ — نعمت‌زاده</p>
-  </section>
-
-  <section class="services" id="services">
-    <h3>خدمات ما</h3>
-    <div class="grid">
-      <div class="card"><h4>اجاق گاز</h4><p>نصب و تعمیر انواع اجاق گاز خانگی</p></div>
-      <div class="card"><h4>هود آشپزخانه</h4><p>نصب و سرویس انواع هود</p></div>
-      <div class="card"><h4>فر توکار</h4><p>نصب و تعمیر فرهای توکار با ضمانت</p></div>
-      <div class="card"><h4>مایکروویو</h4><p>تعمیر تخصصی انواع مایکروویو</p></div>
-      <div class="card"><h4>جاروبرقی</h4><p>تعمیر و سرویس انواع جاروبرقی</p></div>
-      <div class="card"><h4>آبگرمکن</h4><p>نصب و تعمیر انواع آبگرمکن</p></div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <h3>تماس با ما</h3>
-    <p>نشانی: تهرانپارس، فلکه اول، خیابان رمضانی، نبش کیخسروی</p>
-    <p>تلفن: ۰۹۱۹۴۶۷۵۹۲۱</p>
-  </section>google-site-verification=Q3meAJYJRsu70YO7_7VQ_w0prSTrQdFABAi9uaiTKLc
-
-  <footer>
-    © تمامی حقوق برای Tak Service Artin محفوظ اس
+      <nav
