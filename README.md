@@ -13,7 +13,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-           <inbox.html>
         body {
             font-family: 'Tahoma', sans-serif;
             background-color: #f2f2f2; /* خاکستری روشن */
