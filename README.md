@@ -1,4 +1,6 @@
-<فایلinbox.html>
+📄 فایل: Inbox.html
+
+📄 فایل: index.html
 
 <!DOCTYPE html>
 <html lang="fa">
