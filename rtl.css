@@ -2,135 +2,220 @@
 
 
 
-📄 فایل: inbox.html
-
 📄 فایل: index.html
 
-<!doctype html>
-<html lang="fa" dir="rtl">google-site-verification=BAS5tFTn2j3wslEwr-P4Ed7hFR9qNw8EgM0IHb3xt3c
+<!DOCTYPE html>
+<html lang="fa">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Tak Service Artin — خدمات فنی</title>
-  <style>
-    :root {
-      --accent: #0b74de;
-    }
-    * {
-      box-sizing: border-box;
-    }
-    body {google-site-verification=Q3meAJYJRsu70YO7_7VQ_w0prSTrQdFABAi9uaiTKLc
-      margin: 0;
-      font-family: "Tahoma", sans-serif;
-      background: #f5f7fa;
-      color: #222;
-      line-height: 1.6;
-    }
-    header {
-      background: #ffffff;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-      padding: 15px 0;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-    .brand {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .brand h1 {
-      margin: 0;
-      color: var(--accent);
-      font-size: 22px;
-    }
-    nav a {
-      margin-left: 15px;
-      text-decoration: none;
-      color: #333;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-    nav a:hover {
-      color: var(--accent);
-    }
-    .hero {
-      text-align: center;
-      padding: 50px 10px;
-      background: linear-gradient(145deg, #e2ebf0, #ffffff);
-    }
-    .hero h2 {
-      color: #111;
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-    .hero p {
-      color: #555;
-      margin-bottom: 20px;
-    }
-    .cta {
-      display: inline-block;
-      background: var(--accent);
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    .cta:hover {
-      background: #095db4;
-    }
-    .services {
-      padding: 40px 16px;
-      background: #fff;
-    }
-    .services h3 {
-      text-align: center;
-      color: var(--accent);
-      margin-bottom: 25px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-    }
-    .card {
-      background: #f9fbff;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .contact {
-      padding: 40px 16px;
-      text-align: center;
-      background: #f5f7fa;
-    }
-    .contact h3 {
-      color: var(--accent);
-      margin-bottom: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      font-size: 13px;
-      color: #666;
-      background: #fff;
-      border-top: 1px solid #ddd;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tak Service Artin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background-color: #f2f2f2;
+            color: #000;
+            line-height: 1.6;
+        }
+
+        /* 🔹 بنر متحرک بالای صفحه */
+        .banner {
+            background-color: #003366; /* سورمه‌ای تیره */
+            color: #ffd700; /* طلایی */
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 25px 10px;
+            letter-spacing: 1px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .banner span {
+            display: inline-block;
+            animation: slide 10s linear infinite;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        header {
+            background-color: #336699; /* سورمه‌ای روشن */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        header h1 {
+            font-family: 'Nastaliq', cursive;
+            font-size: 36px;
+            color: #fff;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffdd00;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #003366;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .highlight {
+            font-size: 24px;
+            font-weight: bold;
+            color: #003366;
+            margin-bottom: 15px;
+        }
+
+        .about, .services, .contact {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .services ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #003366;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #0055a5;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .lang-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .lang-toggle button {
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            margin-left: 5px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        .lang-toggle button:hover {
+            background-color: #0055a5;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="container brand">
-      <h1>Tak Service Artin</h1>
-      <nav
+
+<!-- 🔹 بنر طلایی متحرک -->
+<div class="banner">
+    <span>⭐ نمایندگی شرکت‌ها: اخوان، کن، داتیس، استیل البرز، T&D، بیمکث | Tak Service Artin ⭐</span>
+</div>
+
+<header>
+    <div class="lang-toggle">
+        <button onclick="switchLang('fa')">فارسی</button>
+        <button onclick="switchLang('en')">EN</button>
+    </div>
+    <h1>Tak Service Artin</h1>
+    <nav>
+        <a href="#about">درباره ما</a>
+        <a href="#services">خدمات</a>
+        <a href="#contact">تماس با ما</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <h2>درباره ما</h2>
+    <div class="highlight">
+        نمایندگی شرکت‌ها: اخوان، کن، داتیس، استیل البرز، T&D، بیمکث
+    </div>
+    <div class="highlight">
+        Tak Service Artin
+    </div>
+    <p>
+        Tak Service Artin با کادری مجرب و متعهد آماده ارائه خدمات نصب و تعمیر تمامی لوازم خانگی است.
+        تمامی خدمات با استفاده از قطعات اصلی و با نازل‌ترین قیمت ارائه می‌شود و فاکتور رسمی شرکت صادر می‌گردد.
+        محدوده فعالیت: شرق و شمال شرق، جنوب شرق، شهرری.
+    </p>
+</section>
+
+<section id="services" class="services">
+    <h2>خدمات ما</h2>
+    <ul>
+        <li>نصب و تعمیر اجاق گاز و هود</li>
+        <li>نصب و تعمیر یخچال و فریزر</li>
+        <li>نصب و تعمیر ماشین لباسشویی و ظرفشویی</li>
+        <li>نصب و تعمیر جاروبرقی و ماکروویو</li>
+        <li>خدمات تعمیر با قطعات اصلی و فاکتور رسمی</li>
+    </ul>
+</section>
+
+<section id="contact" class="contact">
+    <h2>تماس با ما</h2>
+    <p>شماره تماس: 09194675921 - 09364707854 (نعمت‌زاده)</p>
+    <p>آدرس: تهرانپارس، فلکه اول، خیابان ۱۵۰ غربی (رمضانی)</p>
+    <a href="tel:09194675921" class="button">تماس سریع</a>
+</section>
+
+<footer>
+    &copy; 2025 Tak Service Artin | تمامی حقوق محفوظ است
+</footer>
+
+<script>
+    function switchLang(lang) {
+        if(lang === 'fa') {
+            alert('نسخه فارسی فعال شد');
+        } else {
+            alert('English version activated');
+        }
+    }
+</script>
+
+</body>
+</html>
